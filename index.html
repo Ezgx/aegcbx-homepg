@@ -1,0 +1,145 @@
+<html lang="zh-CN">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="color.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="index.js"></script>
+    <title>Aegcbx的主页</title>
+    <body>
+        <main>
+            <div class="group1">
+                <div class="area2">
+                    <div class="title">
+                        <img src="https://pic.imgdb.cn/item/649e8b691ddac507cc483e54.png">
+                        Aegcbx的主页
+                    </div>
+                    <div class="hello">
+                        <p id="1">👋你们好，我是</p>
+                        <p>Aegcbx</p>
+                    </div>
+                    <div class="desc">
+                        是一位：
+                        <br>
+                        学生
+                        <br>
+                        博主
+                        <br>
+                        又菜又爱的前端爱好者
+                        <br>
+                        咸鱼。
+                    </div>
+                </div>
+            </div>
+            <subtitle>
+                <center>
+                <span id="typed"></span>
+                </center>
+                <script>
+                    const options = {
+                      strings: [
+                        '九月露湿，待君之前',
+                        '不惧将来，不念过往',
+                        '今日事，今日毕'
+                    ],
+                    typeSpeed: 50, // 打印速度
+                    startDelay: 300, // 开始之前的延迟300毫秒
+                    loop: true, // 是否循环
+                    backSpeed: 60,
+                    };
+                    const typed = new Typed('#typed', options);
+                </script>
+            </subtitle>
+        </main>
+        <div class="fish"><div id="jsi-flying-fish-container"></div></div>
+        <div id="main">
+            <div class="inner">
+              <div class="about1">多边形战士（雾</div>
+              <p> 
+                  <label for="file">html：</label>
+                  <progress max="100" value="50"> 50% </progress>
+              </p>
+              <p>
+                  <label for="file">css：</label>
+                  <progress max="100" value="40"> 40% </progress>
+              </p>
+              <p> 
+                  <label for="file">扒站：</label>
+                  <progress max="100" value="50"> 50% </progress>
+              </p>
+              <p> 
+                  <label for="file">抄教程：</label>
+                  <progress max="100" value="80"> 80% </progress>
+              </p>
+              <p>
+                  <label for="file">整活：</label>
+                  <progress max="100" value="70"> 70% </progress>
+              </p>
+              <p>
+                  <label for="file">二次元：</label>
+                  <progress max="100" value="100"> 100% </progress>
+              </p>
+              <p>
+                  <label for="file">肝帝：</label>
+                  <progress max="100" value="60"> 60% </progress>
+              </p>
+              <p>
+                  <label for="file">学畜：</label>
+                  <progress max="100" value="90"> 90% </progress>
+              </p>
+              <line></line>
+              <div class="about">我的</div>
+              <center class="links">
+                <a href="http://uu.sssu.us" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        博客
+                    </button>
+                </a>
+                <a href="http://2.sssu.us" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        主页2
+                    </button>
+                </a>
+                <a href="https://github.com/Ezgx" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        github
+                    </button>
+                </a>
+                <a href="http://uu.sssu.us/link" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        友链
+                    </button>
+                </a>
+            </center>
+              <line></line>
+              <div class="about">联系我</div>
+              <center class="links">
+                <a href="https://uu.sssu.us/authorqq" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        QQ
+                    </button>
+                </a>
+                <a href="https://github.com/Ezgx" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        github
+                    </button>
+                </a>
+                <a href="https://uu.sssu.us/authorwechat" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        微信
+                    </button>
+                </a>
+                <line></line>
+                <div class="about">发表评论</div>
+                <div id="cusdis_thread"
+                      data-host="https://cusdis.com"
+                      data-app-id="1831e376-8945-444f-95d3-d0eb070b5046"
+                      data-page-id="{{ PAGE_ID }}"
+                      data-page-url="{{ PAGE_URL }}"
+                      data-page-title="{{ PAGE_TITLE }}"
+                ></div>
+                <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+            </center>
+            </div>
+        </div>
+    </body>
+</html>
